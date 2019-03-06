@@ -16,7 +16,7 @@
   <li> Accelerating techniques:
     <ul>
       <li><strong>Aitken's Method</strong>: His method speeds up the convergence of any of the above methods by calculating 𝝙 after we have 3 points.</li>
-      <li><strong>Steffensen's Method</strong>: A combination of Fixed-Point Iteration and the accelration of Aitken's Method. Compute three points using Fixed-Point and apply Aitken's on those three to get another point. Then again perform Fixed-Point Iteration on it and profit.</li>
+      <li><strong>Steffensen's Method</strong>: A combination of Fixed-Point Iteration and the acceleration of Aitken's Method. Compute three points using Fixed-Point and apply Aitken's on those three to get another point. Then again perform Fixed-Point Iteration on it and profit.</li>
     </ul>
   </li>
 </ol
