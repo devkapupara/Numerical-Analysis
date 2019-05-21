@@ -1,9 +1,9 @@
 def reduced_row_echelon_form(matrix):
 
-	pivot = 0																# Tracks pivot element index
-	back_swap = len(matrix)-1												# To move any rows containing zeroes to the end of the matrix
-	m = len(matrix)															# Number of rows
-	n = len(matrix[0])														# Number of columns
+	pivot = 0															# Tracks pivot element index
+	back_swap = len(matrix)-1											# To move any rows containing zeroes to the end of the matrix
+	m = len(matrix)														# Number of rows
+	n = len(matrix[0])													# Number of columns
 
 
 	for r in range(m):													# Loop through each row
@@ -29,12 +29,13 @@ def reduced_row_echelon_form(matrix):
 	return matrix
 
 if __name__ == '__main__':
-	a = [
-		[1,2,5],
-		[2,-1,5]
-	]
-	a = reduced_row_echelon_form(a)
-	for i in a:
+	matrix = []
+	rows = int(input("How many rows? "))
+	print("Enter rows one by separated by space.")
+	for _ in range(rows):
+		matrix.append(list(map(float, (input().split(" ")))))
+	result = reduced_row_echelon_form(matrix)
+	for i in result:
 		for j in i:
 			print(f'{j:0.4f}', end='\t')
 		print()
