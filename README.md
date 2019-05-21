@@ -24,7 +24,7 @@
     </ul>
   </li>
   <li>
-    <STRONG>Chebyshev's Interpolating Polynomial: Uses Chebyshev's Node to interpolate a given function by calculating the Divided Difference Table.</STRONG>
+    <STRONG>Chebyshev's Interpolating Polynomial</STRONG>: Uses Chebyshev's Node to interpolate a given function by calculating the Divided Difference Table.
   </li>
 </ol>
 
