@@ -7,7 +7,7 @@
 #### Please do note that your f(x) needs to be defined in the main part of the program. You will also need to specify the Tolerance level. Input handling hasn't been implemented yet. I am currently working to develop a web-app so you can run it from the browser directly. 
 
 <ol>
-  <li>Reduced Row Echelon Form: Implemented here to avoid the use of Numpy library in Cubic Splines computation. Helps in keeping the app lightweight and m inimizing dependencies.</li>
+  <li><Strong>Reduced Row Echelon Form</Strong>: Implemented here to avoid the use of Numpy library in Cubic Splines computation. Helps in keeping the app lightweight and m inimizing dependencies.</li>
   <li>Finding the roots of a polynomial:
     <ul>
       <li><strong>Bisection Method</strong>: Used to find the roots of a polynomial. Guaranteed to converge.</li>
@@ -23,5 +23,8 @@
       <li><strong>Steffensen's Method</strong>: A combination of Fixed-Point Iteration and the acceleration of Aitken's Method. Compute three points using Fixed-Point and apply Aitken's on those three to get another point. Then again perform Fixed-Point Iteration on it and profit.</li>
     </ul>
   </li>
-</ol
+  <li>
+    <STRONG>Chebyshev's Interpolating Polynomial: Uses Chebyshev's Node to interpolate a given function by calculating the Divided Difference Table.</STRONG>
+  </li>
+</ol>
 
