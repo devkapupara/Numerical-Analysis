@@ -4,10 +4,10 @@
 
 #### This repository contains the Python implementation of the following method:
 
-#### Please do note that your f(x) needs to be defined in the main part of the program. You will also need to specify the Tolerance level. Input handling hasn't been implemented yet. I am currently working to develop a web-app so you can run it from the browser directly. 
+#### Please do note that your f(x) needs to be defined in the main part of the program. You will also need to specify the Tolerance level. Input handling hasn't been implemented yet.
 
 <ol>
-  <li><Strong>Reduced Row Echelon Form</Strong>: Implemented here to avoid the use of Numpy library in Cubic Splines computation. Helps in keeping the app lightweight and m inimizing dependencies.</li>
+  <li><Strong>Reduced Row Echelon Form</Strong>: Implemented here to avoid the use of Numpy library in Cubic Splines computation. Helps in keeping the app lightweight and minimizing dependencies.</li>
   <li>Finding the roots of a polynomial:
     <ul>
       <li><strong>Bisection Method</strong>: Used to find the roots of a polynomial. Guaranteed to converge.</li>
