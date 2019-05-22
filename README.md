@@ -23,8 +23,14 @@
       <li><strong>Steffensen's Method</strong>: A combination of Fixed-Point Iteration and the acceleration of Aitken's Method. Compute three points using Fixed-Point and apply Aitken's on those three to get another point. Then again perform Fixed-Point Iteration on it and profit.</li>
     </ul>
   </li>
-  <li>
-    <STRONG>Chebyshev's Interpolating Polynomial</STRONG>: Uses Chebyshev's Node to interpolate a given function by calculating the Divided Difference Table.
+  <li>Interpolation:
+    <ul><STRONG>Chebyshev's Interpolating Polynomial</STRONG>: Uses Chebyshev's Node to interpolate a given function by calculating the Divided Difference Table.</ul>
+    <ul><STRONG>Cubic Spline Interpolation:</STRONG>There are two kinds of Cubic Splines:
+      <ol>
+        <li>Natural Cubic Spline: The derivatives at the end-points are set to 0.</li>
+        <li>Clamped Cubic Spline: The derivatives at the end-points are set to actual function's derivative at the end points.</li>
+      </ol>
+    </ul>
   </li>
 </ol>
 
