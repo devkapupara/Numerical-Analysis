@@ -5,7 +5,6 @@ def reduced_row_echelon_form(matrix):
 	m = len(matrix)														# Number of rows
 	n = len(matrix[0])													# Number of columns
 
-
 	for r in range(m):													# Loop through each row
 		scan_r = r 														# scan_r allows look-ahead for rows with non-zero pivot
 		while matrix[scan_r][pivot] == 0:								# While the current row has a zero pivot element,
@@ -26,16 +25,14 @@ def reduced_row_echelon_form(matrix):
 					matrix[i][j] -= factor*matrix[r][j]
 		pivot += 1														# Increment our pivot since we will now move to the next row
 
-	return matrix
-
 if __name__ == '__main__':
 	matrix = []
 	rows = int(input("How many rows? "))
 	print("Enter rows one by separated by space.")
 	for _ in range(rows):
 		matrix.append(list(map(float, (input().split(" ")))))
-	result = reduced_row_echelon_form(matrix)
-	for i in result:
+	reduced_row_echelon_form(matrix)
+	for i in matrix:
 		for j in i:
 			print(f'{j:0.4f}', end='\t')
 		print()
