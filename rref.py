@@ -34,8 +34,8 @@ if __name__ == '__main__':
 	print("Enter rows one by separated by space.")
 	for _ in range(rows):
 		matrix.append(list(map(float, (input().split(" ")))))
-	reduced_row_echelon_form(matrix)
-	for i in matrix:
+	result = reduced_row_echelon_form(matrix)
+	for i in result:
 		for j in i:
 			print(f'{j:0.4f}', end='\t')
 		print()
